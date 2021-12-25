@@ -1,0 +1,122 @@
+<!-- navbar-start -->
+{% load static %}
+<header>
+  <div class="header-area">
+    <!-- topbar -->
+    {% include 'includes/topbar.html' %}
+    <!-- end topbar -->
+    <div id="sticky-header" class="main-header-area">
+      <div class="container">
+        <div class="header_bottom_border">
+          <div class="row align-items-center">
+            <div class="col-12 d-block d-lg-none">
+              <div class="logo">
+                <a href="{% url 'home' %}">
+                  <img src="{% static 'img/logo.png' %}" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="col-xl-12 col-lg-12">
+              <div class="main-menu d-none d-lg-block">
+                <nav>
+                  <ul id="navigation">
+                    <li><a href="{% url 'home' %}">home</a></li>
+                    <li><a href="{% url 'about' %}">about</a></li>
+                    <li>
+                      <a href="{% url 'services' %}"
+                        >Services <i class="ti-angle-down"></i
+                      ></a>
+                      <ul class="submenu">
+                        <li>
+                          <a href="{% url 'freight_forwarding' %}"
+                            >FREIGHT FORWARDING</a
+                          >
+                        </li>
+                        <li>
+                          <a href="{% url 'removals_relocations' %}"
+                            >REMOVALS & RELOCATION</a
+                          >
+                        </li>
+                        <li>
+                          <a href="{% url 'project_logistics' %}"
+                            >PROJECT LOGISTICS</a
+                          >
+                        </li>
+                        <li>
+                          <a href="{% url 'logistics_management' %}"
+                            >LOGISTICS MANAGEMENT</a
+                          >
+                        </li>
+                        <li>
+                          <a href="{% url 'warehouse_logistics' %}"
+                            >WAREHOUSE LOGISTICS</a
+                          >
+                        </li>
+                        <li>
+                          <a href="{% url 'storage_transport' %}"
+                            >DANGEROUS GOODS STORAGE & TRANSPORT</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Project <i class="ti-angle-down"></i></a>
+                      <ul class="submenu">
+                        <li>
+                          <a href="{% url 'road_project' %}">Road Project</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'sea_project' %}">Sea Project</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'railway_project' %}"
+                            >Railway Project</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Transportation <i class="ti-angle-down"></i
+                      ></a>
+                      <ul class="submenu">
+                        <li>
+                          <a href="{% url 'road_transportation' %}"
+                            >Road Transportation</a
+                          >
+                        </li>
+                        <li>
+                          <a href="{% url 'airy_transportation' %}"
+                            >Airy Transportation</a
+                          >
+                        </li>
+                        <li>
+                          <a href="{% url 'sea_transportation' %}"
+                            >Sea Transportation</a
+                          >
+                        </li>
+                        <li>
+                          <a href="{% url 'railway_transportation' %}"
+                            >Railway Transportation</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="{% url 'global_coverage' %}">Global Coverage</a>
+                    </li>
+                    <li><a href="{% url 'contact' %}">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="mobile_menu d-block d-lg-none"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- navbar-end -->

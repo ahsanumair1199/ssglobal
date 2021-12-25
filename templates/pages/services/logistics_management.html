@@ -1,0 +1,175 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!-- bradcam_area  -->
+<div class="bradcam_area bradcam_area2 bradcam_bg_2">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="bradcam_text text-center">
+            <h3>Logistics Management</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ bradcam_area  -->
+  <!-- service_details_start  -->
+  <div class="service_details_area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4">
+          <div class="service_details_left">
+            <h3>LOGISTICS MANAGEMENTS</h3>
+            <div
+              class="nav nav-pills"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <a
+                class="active"
+                id="v-pills-home-tab"
+                data-toggle="pill"
+                href="#v-pills-home"
+                role="tab"
+                aria-controls="v-pills-home"
+                aria-selected="true"
+                >Custom Clearance</a
+              >
+              <a
+                class=""
+                id="v-pills-air-tab"
+                data-toggle="pill"
+                href="#v-pills-air"
+                role="tab"
+                aria-controls="v-pills-air"
+                aria-selected="false"
+                >Cargo Insurance</a
+              >
+              <a
+                class=""
+                id="v-pills-messages-tab"
+                data-toggle="pill"
+                href="#v-pills-messages"
+                role="tab"
+                aria-controls="v-pills-messages"
+                aria-selected="false"
+                >Exhibitions & Events Support</a
+              >
+              <a
+                class=""
+                id="v-pills-messages1-tab"
+                data-toggle="pill"
+                href="#v-pills-messages1"
+                role="tab"
+                aria-controls="v-pills-messages1"
+                aria-selected="false"
+                >Warehousing / Logistics / Distribution</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-8">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="v-pills-home"
+              role="tabpanel"
+              aria-labelledby="v-pills-home-tab"
+            >
+              <div class="service_details_info">
+                <h3>Custom Clearance details</h3>
+                <p>
+                  SS GLOBAL is an Authorized Customs Clearance Agent in UAE
+                  for all kinds of cargo. With our thorough knowledge,
+                  experience and efficient network in UAE customs and clearing
+                  industry, we make the customs clearance process simple for
+                  our clients. We are up to date with the customs regulations,
+                  tariff schedules and other rules and regulations related to
+                  shipping and forwarding in UAE to make ourselves more
+                  competent in our services. Be it Export, Import or local
+                  movement of cargos by air, sea, road or rail, we can make
+                  the process of Customs clearance easy for you by handling
+                  all related documentations and processes.
+                </p>
+              </div>
+              <div class="service_thumb">
+                <img class="img-fluid" src="{% static 'img/service/1.png' %}" alt="" />
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-air"
+              role="tabpanel"
+              aria-labelledby="v-pills-air-tab"
+            >
+              <div class="service_details_info">
+                <h3>Cargo Incurance details</h3>
+                <p>
+                  Wide wing provides competitive cargo insurance rates for all
+                  modes of cargo and transportation through our large network
+                  on insurance providers around the globe.
+                </p>
+              </div>
+              <div class="service_thumb">
+                <img class="img-fluid" src="{% static 'img/service/3.png' %}" alt="" />
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-messages"
+              role="tabpanel"
+              aria-labelledby="v-pills-messages-tab"
+            >
+              <div class="service_details_info">
+                <h3>Exhibitions & Events Support details</h3>
+                <p>
+                  Wide wing offers specialized and efficient logistic service
+                  for handling cargo movement and material handling for
+                  exhibitions and events. We provide import and export of
+                  goods by air, sea and road with clearing forwarding as
+                  required by the destinations, site preparation and handling,
+                  packaging and storage.
+                </p>
+              </div>
+              <div class="service_thumb">
+                <img class="img-fluid" src="{% static 'img/service/2.png' %}" alt="" />
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-messages1"
+              role="tabpanel"
+              aria-labelledby="v-pills-messages1-tab"
+            >
+              <div class="service_details_info">
+                <h3>Warehousing / Logistics / Distribution</h3>
+                <p>
+                  The SS GLOBAL provides all types of storage facilities in
+                  Jebel ali freezone and outside.
+                </p>
+                <ul class="mylist">
+                  <li>
+                    We can store your Chemical cargo / General Cargo /
+                    Temperature control Cargo.
+                  </li>
+                  <li>Facility for loading / unloading.</li>
+                  <li>Customs clearance.</li>
+                  <li>Labeling/ Re-labeling /Palletising.</li>
+                  <li>Sorting, segregation, weighing & Store.</li>
+                  <li>Consolidate & Reship.</li>
+                  <li>Arranging insurances.</li>
+                  <li>Stock reports.</li>
+                </ul>
+              </div>
+              <div class="service_thumb">
+                <img class="img-fluid" src="{% static 'img/service/4.png' %}" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

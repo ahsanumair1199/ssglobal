@@ -1,0 +1,187 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!-- bradcam_area  -->
+<div class="bradcam_area bradcam_area2 bradcam_bg_3">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="bradcam_text text-center">
+            <h3>Road Project</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ bradcam_area  -->
+  <!-- service_details_start  -->
+  <div class="service_details_area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4">
+          <div class="service_details_left">
+            <h3>ROAD PROJECT</h3>
+            <div
+              class="nav nav-pills"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <a
+                class="active"
+                id="v-pills-home-tab"
+                data-toggle="pill"
+                href="#v-pills-home"
+                role="tab"
+                aria-controls="v-pills-home"
+                aria-selected="true"
+                >Pipe Project</a
+              >
+              <a
+                class=""
+                id="v-pills-air-tab"
+                data-toggle="pill"
+                href="#v-pills-air"
+                role="tab"
+                aria-controls="v-pills-air"
+                aria-selected="false"
+                >Textile machinery project</a
+              >
+              <a
+                class=""
+                id="v-pills-messages-tab"
+                data-toggle="pill"
+                href="#v-pills-messages"
+                role="tab"
+                aria-controls="v-pills-messages"
+                aria-selected="false"
+                >Betomen project</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-8">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="v-pills-home"
+              role="tabpanel"
+              aria-labelledby="v-pills-home-tab"
+            >
+              <div class="service_details_info">
+                <h3>Pipe Project details</h3>
+                <p>
+                  Combined transport of water pipes and sewage projects to
+                  Turkmenistan over 29500 meter traffic transport operation in
+                  2 months
+                </p>
+              </div>
+              <div class="row">
+                <div class="service_thumb col-4">
+                  <img
+                    class="img-fluid"
+                    src="{% static 'img/service/pipe1.png' %}"
+                    alt="img"
+                  />
+                </div>
+                <div class="service_thumb col-4">
+                  <img
+                    class="img-fluid"
+                    src="{% static 'img/service/pipe2.png' %}"
+                    alt="img"
+                  />
+                </div>
+                <div class="service_thumb col-4">
+                  <img
+                    class="img-fluid"
+                    src="{% static 'img/service/pipe3.png' %}"
+                    alt="img"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-air"
+              role="tabpanel"
+              aria-labelledby="v-pills-air-tab"
+            >
+              <div class="service_details_info">
+                <h3>Textile Machinery Project details</h3>
+                <p>
+                  Textile machinery transport from germany to turkmenistan in
+                  70 truck As Task Force
+                  Germany-turkey-Iran-turkmenistan/kohne orgench
+                </p>
+              </div>
+              <div class="row">
+                <div class="service_thumb col-4">
+                  <img
+                    class="img-fluid"
+                    src="{% static 'img/service/textile1.png' %}"
+                    alt="img"
+                  />
+                </div>
+                <div class="service_thumb col-4">
+                  <img
+                    class="img-fluid"
+                    src="{% static 'img/service/textile2.png' %}"
+                    alt="img"
+                  />
+                </div>
+                <div class="service_thumb col-4">
+                  <img
+                    class="img-fluid"
+                    src="{% static 'img/service/textile3.png' %}"
+                    alt="img"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-messages"
+              role="tabpanel"
+              aria-labelledby="v-pills-messages-tab"
+            >
+              <div class="service_details_info">
+                <h3>Betomen Project details</h3>
+                <p>
+                  transport project betomen from isfahan / Iran to Mary
+                  /Turkmenistan 6000 ton
+                </p>
+              </div>
+              <div class="row">
+                <div class="service_thumb col-4">
+                  <img
+                    class="img"
+                    height="150px"
+                    src="{% static 'img/service/betom1.png' %}"
+                    alt="img"
+                  />
+                </div>
+                <div class="service_thumb col-4">
+                  <img
+                    class="img"
+                    height="150px"
+                    src="{% static 'img/service/betom2.png' %}"
+                    alt="img"
+                  />
+                </div>
+                <div class="service_thumb col-4">
+                  <img
+                    class="img"
+                    height="150px"
+                    src="{% static 'img/service/betom3.png' %}"
+                    alt="img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- service_details_start  -->
+{% endblock %}
